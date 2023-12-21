@@ -3,7 +3,7 @@ name: End to End CI/CD workflow for Java Applicaton with Maven, Sonar and k8s In
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   KUBECONFIG: ${{ secrets.KUBECONFIG }}
